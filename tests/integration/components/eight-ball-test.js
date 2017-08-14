@@ -12,14 +12,6 @@ test('it renders', function(assert) {
 
   this.render(hbs`{{eight-ball}}`);
 
-  assert.equal(this.$().text().trim(), '');
+  assert.equal(this.$().text().trim(), `HELLO, I'M AN EIGHT BALL.`);
 
-  // Template block usage:
-  this.render(hbs`
-    {{#eight-ball}}
-      template block text
-    {{/eight-ball}}
-  `);
-
-  assert.equal(this.$().text().trim(), 'template block text');
 });

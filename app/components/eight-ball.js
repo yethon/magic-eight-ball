@@ -1,4 +1,6 @@
-import Ember from 'ember';
+import Component from 'ember-component';
+import injectService from 'ember-service/inject';
 
-export default Ember.Component.extend({
+export default Component.extend({
+  answers: injectService('answers')
 });
