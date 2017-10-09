@@ -5,8 +5,10 @@ module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
     'ember-cli-babel': {
       includePolyfill: true
+    },
+    autoprefixer: {
+      browsers: ['last 2 version']
     }
-    // Add options here
   });
 
   // Use `app.import` to add additional libraries to the generated
