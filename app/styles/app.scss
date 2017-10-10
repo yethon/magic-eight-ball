@@ -1,1 +1,18 @@
-@import 'components/eight-ball'
+@import 'components/eight-ball';
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html, body {
+  background: rgb(0,0,0) url("http://i.imgur.com/c3wZECC.jpg") fixed no-repeat;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

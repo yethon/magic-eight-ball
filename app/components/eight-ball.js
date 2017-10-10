@@ -7,13 +7,9 @@ export default Component.extend({
   answers: injectService('answers'),
   magicAnswer: '',
 
-  actions: {
-    getAnswer() {
-      let answer = get(this, 'answers').answerMe();
+  mouseEnter() {
+    let answer = get(this, 'answers').answerMe();
 
-      set(this, 'magicAnswer', answer);
-    }
+    set(this, 'magicAnswer', answer);
   }
-
-
 });
