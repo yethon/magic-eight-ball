@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400);
 
 .eball{
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   background: rgb(30,30,30);
   border-radius: 100%;
   overflow: hidden;
@@ -13,8 +13,8 @@
 .egrad{
   position: absolute;
   background: radial-gradient(ellipse at center, rgba(255,255,255,0.2) 0%,rgba(242,242,242,0.2) 7%,rgba(30,30,30,0.1) 30%,rgba(30,30,30,0.00) 100%);
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   border-radius: 100%;
   left: 60%;
   top: 30%;
@@ -24,8 +24,8 @@
 .ewin{
   position: absolute;
   background: linear-gradient(45deg, rgba(20,0,20,1) 0%, rgba(40,0,40,1) 100%);
-  width: 160px;
-  height: 160px;
+  width: 120px;
+  height: 120px;
   border-radius: 100%;
   border: solid 4px rgba(20,20,20,0.8);
   box-shadow: 10px -10px 10px rgba(20,20,20,0.6), 10px -10px 1px rgba(20,20,20,0.5),-10px -10px 1px rgba(20,20,20,0.5),10px 10px 1px rgba(50,50,50,0.5),-10px 10px 1px rgba(50,50,50,0.5), 8px -10px 10px rgba(20,20,20,0.6), -8px 10px 10px rgba(60,60,60,0.6), inset -10px 10px 40px rgba(200,0,20,0.05), inset 10px -10px 40px rgba(20,0,200,0.1);
@@ -41,15 +41,15 @@
   height: 0px;
   left: 50%;
   top: 55%;
-  border-left: 55px solid transparent;
-  border-right: 55px solid transparent;
-  border-top: 90px solid rgba(60,10,120,0.0);
+  border-left: 41px solid transparent;
+  border-right: 41px solid transparent;
+  border-top: 68px solid rgba(60,10,120,0.0);
   opacity: 0;
   transition: ease-in all 0.8s;
 }
 
 .textbox{
-  font: 400 11px Oswald;
+  font: 400 10px Oswald;
   text-shadow: 1px 1px 2px rgba(40,0,200,0.8);
   color: rgba(240,220,240,0.8);
   text-align: center;
@@ -57,8 +57,8 @@
   transform: translate(-50%,-50%) rotate(5deg);
   position: absolute;
   text-transform: uppercase;
-  width: 48px;
-  height: 50px;
+  width: 38px;
+  height: 40px;
   left: 50%;
   top: 53%;
   opacity: 0;
@@ -72,7 +72,7 @@
 }
 
 .eball:hover .triangle{
-  border-top: 90px solid rgba(0,63,221,0.9);
+  border-top: 68px solid rgba(0,63,221,0.9);
   transform: translate(-50%,-50%) rotate(0deg);
   opacity: 1;
   transition: ease-in all 0.2s;
