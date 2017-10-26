@@ -7,7 +7,15 @@ export default Component.extend({
   answers: injectService('answers'),
   magicAnswer: '',
 
+  touchStart() {
+    this.getAnswer();
+  },
+
   mouseEnter() {
+    this.getAnswer();
+  },
+
+  getAnswer() {
     let answer = get(this, 'answers').answerMe();
 
     set(this, 'magicAnswer', answer);
