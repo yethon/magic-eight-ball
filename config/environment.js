@@ -65,7 +65,8 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    ENV.rootURL = '/magic-eight-ball';
+    ENV.locationType = 'hash';
   }
 
   return ENV;
